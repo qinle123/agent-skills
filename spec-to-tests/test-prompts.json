@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "prompt": "我只有需求文档，还没有 XMind。请先根据需求生成测试矩阵，区分 unit/component/API/e2e/manual，不要直接生成测试代码。",
+    "expected": "进入 Spec-first 模式，先提取需求规则，再输出 canonical matrix；矩阵行 source=requirement，confirmed 只用于需求明确的断言，并停在用户确认前。"
+  },
+  {
+    "id": 2,
+    "prompt": "XMind 测试用例晚到了。请把它和之前的 requirement-matrix.yaml 对齐，看看漏测、冲突和新增场景。",
+    "expected": "解析 XMind，生成 source=xmind 的候选矩阵；运行或建议 reconcile_test_matrix.py；输出 covered/missing/xmind-only/conflicts，不直接改测试代码。"
+  },
+  {
+    "id": 3,
+    "prompt": "我只有一个 XMind 文件，帮我生成自动化测试。",
+    "expected": "说明只有 XMind 不能确认业务规则完整性；先用 parse_xmind.py/build_case_matrix.py 生成候选矩阵，所有业务断言标记 needs-confirmation，并要求用户确认矩阵。"
+  },
+  {
+    "id": 4,
+    "prompt": "这是 React 项目，已有 Playwright 和 Jest。QA checklist 包含字段必填、参数 category_id、保存后列表可见、审批流提交。请做分层。",
+    "expected": "字段和参数下沉到 component/unit/API，保存后列表可见和审批流提交保留薄 e2e；复用现有 Playwright + Jest，不引入新框架。"
+  },
+  {
+    "id": 5,
+    "prompt": "我想把这批表单校验规则全部直接写成 Playwright e2e，你直接生成 20 条。",
+    "expected": "明确纠偏，先按最小有效分层生成矩阵，只保留少量关键浏览器链路，不在矩阵确认前生成代码。"
+  }
+]

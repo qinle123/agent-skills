@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Guardrails"
+  short_description: "Add or upgrade repo-local guardrails."
+  default_prompt: "Use $project-guardrails to inspect this repo, choose the smallest effective local guardrail command for its project profile, and update AGENTS.md with the future-agent contract. Include WeChat Mini Program or AI skills guardrails when the repo contains app.json, project.config.json, or skills/. Do not expand into CI unless explicitly requested."
+
+policy:
+  allow_implicit_invocation: true

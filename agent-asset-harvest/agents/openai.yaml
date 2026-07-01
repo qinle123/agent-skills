@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Asset Harvest"
+  short_description: "Mine sessions into skills agents and automations"
+  default_prompt: "Use $agent-asset-harvest to review recent agent sessions and turn repeated work into reusable assets."

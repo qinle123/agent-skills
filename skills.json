@@ -1,13 +1,32 @@
 {
   "entries": [
     { "path": "Novel-Control-Station-Skill" },
+    { "path": "agent-asset-harvest" },
     { "path": "brainstorming" },
+    { "path": "codebase-design" },
+    { "path": "component-reference-audit" },
+    { "path": "diagnosing-bugs" },
     { "path": "frontend-design" },
+    { "path": "generate-design-md" },
+    { "path": "grill-me" },
+    { "path": "grill-with-docs" },
+    { "path": "grilling" },
     { "path": "handoff" },
+    { "path": "health" },
     { "path": "herdr" },
+    { "path": "huashu-design" },
     { "path": "humanizer-zh" },
+    { "path": "improve-codebase-architecture" },
     { "path": "learn" },
+    { "path": "multi-agent-execution" },
+    { "path": "project-guardrails" },
+    { "path": "review" },
+    { "path": "skill-cleaner" },
+    { "path": "spec-to-tests" },
     { "path": "systematic-debugging" },
-    { "path": "using-superpowers" }
+    { "path": "tdd" },
+    { "path": "using-superpowers" },
+    { "path": "writing-great-skills" }
   ]
 }
+
