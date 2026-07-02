@@ -11,6 +11,7 @@
 ### 🎨 设计 / 视觉
 | Skill | 使用场景 / 核心作用 |
 | :--- | :--- |
+| [Novel-Control-Station-Skill](skills/Novel-Control-Station-Skill/SKILL.md) | 小说创作控制台。用于长篇小说写作、情节大纲策划、人物/世界设定维护、断点续写及长程 drafting/revision 流程管理。 |
 | [frontend-design](skills/frontend-design/SKILL.md) | 高保真前端界面设计。当需要设计 distinctive、生产级的前端组件、静态页面或完整 Web UI 时使用，强调视觉美学，摆脱千篇一律的 AI 套路化设计。 |
 | [codebase-design](skills/codebase-design/SKILL.md) | 深度模块与架构设计。在设计/重构模块接口、寻找模块解耦机会、优化代码可测性，以及为复杂业务建立统一共享词汇表时使用。 |
 | [generate-design-md](skills/generate-design-md/SKILL.md) | 视觉规范提取。从已有页面或组件中自动提炼出核心设计系统规范，生成最小可用的 `DESIGN.md`，用于约束后续的新页面开发。 |
