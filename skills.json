@@ -2,6 +2,7 @@
   "entries": [
     { "path": "skills/agent-asset-harvest" },
     { "path": "skills/brainstorming" },
+    { "path": "skills/chapter-selfcheck" },
     { "path": "skills/codebase-design" },
     { "path": "skills/component-reference-audit" },
     { "path": "skills/diagnosing-bugs" },
